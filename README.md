@@ -3,12 +3,12 @@
 - Artifact Producer : Yona Bian
 
 
-##Project Overview
+## Project Overview
 1. This repository will involve training discriminator neural networks to explore whether music is created by real humans or fake music generated. 
 2. This repository is perfectly cometible with pytorch
 
 
-##Downloading Data
+## Downloading Data
 ```bash
 $ ssh -J [your uId]@bulwark.cecs.anu.edu.au [your name]@plasticpal.gpu
 ```
@@ -22,13 +22,13 @@ $ ssh -J [your uId]@bulwark.cecs.anu.edu.au [your name]@plasticpal.gpu
             - test_LSTM
             - pop_midi
 
-##How to Use
+## How to Use
 
 * Run `python train.py` to train and test the first model.
 * Run `python train_LSTM.py` to train and test the second model.
 * The `data_process` folder contains all the scripts for generating and processing the data.
 
 
-##References
+## References
 * MusicTransformer [here](https://github.com/jason9693/MusicTransformer-pytorch)
 * LSTM FCN for Time Series Classification [here](https://github.com/titu1994/LSTM-FCN)
